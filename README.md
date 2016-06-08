@@ -1,4 +1,4 @@
-# The rule of resize an image
+# Rules to resize an image
 **a,** If both the width and the height are smaller or equal to 1280 pixels, return the original image.
 
 **b,** If either the width or the height is larger than 1280 pixels, and the aspect ratio is smaller or equal to 2. Resize the larger side to 1280 pixels and another side on the same scale of the original image.
