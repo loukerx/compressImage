@@ -52,7 +52,7 @@ public class AppImageHelper: NSObject {
         
         var sizeChange = CGSize()
         
-        if width < 1280 && height < 1280{ //a，图片宽或者高均小于或等于1280时图片尺寸保持不变，不改变图片大小
+        if width <= 1280 && height <= 1280{ //a，图片宽或者高均小于或等于1280时图片尺寸保持不变，不改变图片大小
             return originalImg
         }else if width > 1280 || height > 1280 {//b,宽或者高大于1280，但是图片宽度高度比小于或等于2，则将图片宽或者高取大的等比压缩至1280
             
