@@ -1,6 +1,6 @@
 //
 //  AppImageHelper.swift
-//
+//  swift2.2
 //  Created by Yin Hua on 8/06/2016.
 //
 
