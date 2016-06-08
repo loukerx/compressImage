@@ -1,9 +1,7 @@
 //
 //  AppImageHelper.swift
-//  wswu
 //
 //  Created by Yin Hua on 8/06/2016.
-//  Copyright © 2016 Guo Dong. All rights reserved.
 //
 
 
