@@ -21,21 +21,21 @@ public class AppImageHelper: NSObject {
         
         if originalImgSize>1500 {
             
-            zipImageData = UIImageJPEGRepresentation(image,0.1)!
+            zipImageData = UIImageJPEGRepresentation(image,0.2)!
             
         }else if originalImgSize>600 {
             
-            zipImageData = UIImageJPEGRepresentation(image,0.2)!
+            zipImageData = UIImageJPEGRepresentation(image,0.4)!
         }else if originalImgSize>400 {
             
-            zipImageData = UIImageJPEGRepresentation(image,0.3)!
+            zipImageData = UIImageJPEGRepresentation(image,0.6)!
             
         }else if originalImgSize>300 {
             
-            zipImageData = UIImageJPEGRepresentation(image,0.4)!
+            zipImageData = UIImageJPEGRepresentation(image,0.7)!
         }else if originalImgSize>200 {
             
-            zipImageData = UIImageJPEGRepresentation(image,0.5)!
+            zipImageData = UIImageJPEGRepresentation(image,0.8)!
         }
         
         return zipImageData
